@@ -20,12 +20,12 @@
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_function.PNG"> 
 </p>
 <p align="center">
-  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/partial_x.png"> <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/partial_y.png">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/partial_x.png"> and  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/partial_y.png">
 </p>
 <br>The class ‘GradientDescent’ is used in performing the analysis and the notebook contains all the coding done.
 
 ### Plain-Vanilla Gradient Descent
-</p>Plain vanilla gradient descent works by working from the stated starting point in the opposite direction of the gradient at that point.
+</p>Plain vanilla gradient descent starts by working from the stated starting point in the opposite direction of the gradient at that point.
 <br>The movement of the loss function is as below:
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path.png"> 
