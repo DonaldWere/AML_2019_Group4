@@ -28,11 +28,17 @@
 </p>Plain vanilla gradient descent starts by working from the stated starting point in the opposite direction of the gradient at that point.
 <br>The movement of the loss function is as below:
 <p align="center">
-  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path.gif" width="720" height="600"> 
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path.gif" width="600" height="480"> 
 </p>As can be seen from the above chart, the loss function moves from an initial 162, and moves down till it gets to the local minimum at f(x,y) = 2.1043 where (x,y)=(1.7.0.896)
 </p>This is not the global minima and this is evidence of the inability of plain-vanilla gradient descent especially at very small step sizes.
 <br>Increasing the step sizes however gave different results as shown below:
-
+<p align="center">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss.png" width="600" height="480">
+</p> The function attained the global minimum 50% of the time
+<p align="center">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations.png" width="600" height="480">
+ </p>Incresing the step size also led to a decline in the number of iterations as highlighted about
+ 
 ### Momentum Gradient Descent:
 </p>Momentum gradient descent addresses the key limitations of plain-vanilla: speed of convergence and inability to go past local minima to the global minima. 
 <br>As illustrated using the same step size of 0.001, the function converges faster in 278 steps compared to 1,599 under plain-vanilla.
