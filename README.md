@@ -34,16 +34,16 @@
 <br>Increasing the step sizes however gave different results as shown below:
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss.png" width="600" height="480">
-</p> The function attained the global minimum 50% of the time
+</p align="center"> The function attained the global minimum 50% of the time
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations.png" width="600" height="480">
- </p>Incresing the step size also led to a decline in the number of iterations as highlighted about
+ <p align="center">Incresing the step size also led to a decline in the number of iterations as highlighted about
  
 ### Momentum Gradient Descent:
 </p>Momentum gradient descent addresses the key limitations of plain-vanilla: speed of convergence and inability to go past local minima to the global minima. 
 <br>As illustrated using the same step size of 0.001, the function converges faster in 278 steps compared to 1,599 under plain-vanilla.
 <p align="center">
-  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path2."> 
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path2.png"> 
 </p>It however also has the challenge of not going past the local minima if the criteria is met.
 <br>Trying to do simulations over the same range of step sizes revealed the following:
 <br>The function exploded in many cases indicating that it went beyond the recommended evaluation rectangle.
