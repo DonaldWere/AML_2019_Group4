@@ -12,7 +12,7 @@
 <br>The global minima of the function lie at (x, y) = (0.0898, -0.7126) and (-0.0898, 0.7126) 
 <br>The images below show the six-hump camel function:
 <p align="center">
-  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/6_hump_plot.png" width="425"> <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/6_hump_closeup.png" width="425">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/6_hump_plot.png">
 
 ### Note: Key Functions for Analysis:
 </p>The functions used for our analysis are: the six hump camel function and its two partial derivatives with respect to both x and y:
