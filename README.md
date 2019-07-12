@@ -1,8 +1,8 @@
 # AML_2019_Group4
 
 ## Gradient Descent Implementation in Python
-</p> Gradient descent is one of the key useful tools in machine learning.
-<br> Gradient descent is very important when optimizing functions. It is employed to determine the best parameters to fit in a model to reduce the prediction error
+</p> Gradient descent is one of the key tools in machine learning used in optimizing functions.
+<br> Gradient descent is employed to determine the best parameters to fit to a model to reduce the prediction error
 
 ## Gradient Descent: The Six-Hump Camel Function
 <br> The six-hump camel function is one of the optimization test problems used to demonstrate machine learning. To see other minimization problems, you can [click on this link](http://www.sfu.ca/~ssurjano/optimization.html).
@@ -19,9 +19,7 @@
 $f(x,y)=x+y$
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_function.png"> 
-<br>
-![](http://latex.codecogs.com/gif.latex?f%28x%2Cy%29%3D%284-2.1x%5E2&plus;x%5E4/3%29x%5E2&plus;xy&plus;%28-4&plus;4y%5E2%29y%5E2)
-
+</p>
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_function_partial_x.png"> and  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_function_partial_y.png">
 </p>
