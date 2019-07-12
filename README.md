@@ -16,9 +16,12 @@
 
 ### Note: Key Functions for Analysis:
 </p> The functions used for our analysis are: the six hump camel function and its two partial derivatives with respect to both x and y:
+$f(x,y)=x+y$
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_function.png"> 
-</p>
+<br>
+![](http://latex.codecogs.com/gif.latex?f%28x%2Cy%29%3D%284-2.1x%5E2&plus;x%5E4/3%29x%5E2&plus;xy&plus;%28-4&plus;4y%5E2%29y%5E2)
+
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_function_partial_x.png"> and  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_function_partial_y.png">
 </p>
