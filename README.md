@@ -48,7 +48,7 @@ Our analysis was performed in a class called `GradientDescent` which we imported
 * Speed of convergence especially as it approaches a minimum point
 * Inability to go past other local minima (or saddle points). 
 
-<br> As illustrated using the same step size of 0.001, the function **converges faster than plain vanilla _(in 278 steps compared to 1,599 under plain-vanilla)._**
+<br> Using the same step size of 0.001, the function **converges faster than plain vanilla _(in 278 steps compared to 1,599 under plain-vanilla)._**
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path2.png"> 
 </p> It however also has the challenge of not going past the local minimum.
@@ -69,7 +69,7 @@ Our analysis was performed in a class called `GradientDescent` which we imported
 * Reduce the zig-zag movements around the minimum point and hence converge faster
 * Reduce the overshooting hence converge more 
 
-<br> As demonstrated below, with the same step size of 0.001, **the function converges even faster and does even better than momentum gradient descent by converging to the global minima.**
+<br> As demonstrated below, with the same step size of 0.001, **the function converges even faster and at the the global minima.**
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path3.png"> 
 
