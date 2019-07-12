@@ -6,7 +6,7 @@
 </p>
 
 ## Gradient Descent: The Six-Hump Camel Function
-The six-hump camel function is one of the optimization test problems used to demonstrate machine learning. To see other minimization problems, you can [click on this link](http://www.sfu.ca/~ssurjano/optimization.html).
+The six-hump camel function is one of the optimization test problems un machine learning. To see other minimization problems, you can [click on this link](http://www.sfu.ca/~ssurjano/optimization.html).
 <br> The six hump loss function is given by:
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_function.png"> 
@@ -43,7 +43,7 @@ Our analysis was performed in a class called `GradientDescent` which we imported
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations1.png">
 
- ### Momentum Gradient Descent:
+ ## Momentum Gradient Descent:
 <br> Momentum gradient descent addresses the key limitations of plain-vanilla:
 * Speed of convergence especially as it approaches a minimum point
 * Inability to go past other local minima (or saddle points). 
@@ -64,12 +64,12 @@ Our analysis was performed in a class called `GradientDescent` which we imported
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations2.png">
 
-### Nestrov’s Accelerated Gradient Descent:
+## Nestrov’s Accelerated Gradient Descent:
 <br> This variant of plain vanilla was meant to address the limitations of momentum gradient descent by reducing the momentum when approaching a minimum point hence:
 * Reduce the zig-zag movements around the minimum point and hence converge faster
 * Reduce the overshooting hence converge more 
 
-<br> As demonstrated below, with the same step size of 0.001, **the function converges even faster and at the the global minima.**
+<br> With the same step size of 0.001, **the function converges even faster and at the global minima.**
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path3.png"> 
 
