@@ -25,28 +25,28 @@ Our analysis was performed in a class called `GradientDescent` which we imported
 
 ## Plain-Vanilla Gradient Descent
 <br> Plain vanilla gradient descent starts by working from the stated starting point in the opposite direction of the gradient at that point.
-<br> The movement of the loss function is as highlighted in the animation below:
+<br> The movement of the loss function is as below:
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path1.png" width="600" height="480"> 
 </p>
-<br> As can be seen from the above chart, the loss function moves from an initial point at 162, and moves down till it gets to the local minimum at f(x,y) = 2.1043 where (x,y)=(1.7,0.896)
-<br> This is not the global minima and this is evidence of the inability of plain-vanilla gradient descent especially at very small step sizes.
+<br> The loss function moves from the initial point at 162 to the local minimum at 2.1043 where (x,y)=(1.7,0.896)
+<br> This is not the global minima and this is evidence of the inability of plain-vanilla to locate the global minimum at very small step sizes.
 
 ### Effect of changing the step size (Plain Vanilla)
 </p> 1. The function converged at the global minimum with an increase in the step size:
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss1.png">
-</p> 2. The number of times it converged at the global minimum was roughly 50% of the time as illustrated below:
+</p> 2. Tt converged at the global minimum roughly 50% of the time as illustrated below:
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss_freq1.png">
-</p> 3. The number of iterations need for the function to converge also decreased with an increase in the step size as highlighted below:
+</p> 3. The number of iterations to convergence decreased with an increase in the step size as highlighted below:
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations1.png">
 
  ### Momentum Gradient Descent:
 <br> Momentum gradient descent addresses the key limitations of plain-vanilla:
 * Speed of convergence especially as it approaches a minimum point
-* Inability to go past other local minima(or saddle points). 
+* Inability to go past other local minima (or saddle points). 
 
 <br> As illustrated using the same step size of 0.001, the function **converges faster than plain vanilla _(in 278 steps compared to 1,599 under plain-vanilla)._**
 <p align="center">
@@ -57,7 +57,7 @@ Our analysis was performed in a class called `GradientDescent` which we imported
 </p>1. The function achieved the global minimum more over the step sizes at which it converged
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss2.png">
-</p> 2. The function converged only 30% of the time implying that momentum gradient descent overshoots _(disregard the infinity)_.
+</p> 2. The function converged only 30% of the time implying that momentum gradient descent overshoots (disregard the infinity).
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss_freq2.png">
 </p> 3. The number of iterations needed for convergence are roughly the same over the step sizes. This is a weakness of momentum (it does big, almost equal zig-zag movements when close to a minimum point).
