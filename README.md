@@ -55,11 +55,11 @@
 </p>Experimenting over the same range of step sizes shows that the function explodes in very many circumstances
 <br>Comparing the three, despite its limitations, plain vanilla does converge albeit inefficiently:
 <p align="center">
-  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path1.png" width="290"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path2.png" width="290"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path3.png" width="290">
-  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations1.png" width="290"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations2.png" width="290"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations3.png" width="290">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path1.png" width="425"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path2.png" width="425"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path3.png" width="425">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations1.png" width="425"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations2.png" width="425"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations3.png" width="425">
   
 <p align="center">  
-  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss1.png" width="290"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss2.png" width="290"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss3.png" width="290">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss1.png" width="425"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss2.png" width="425"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss3.png" width="425">
 
 <p align="center">
-  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss_freq1.png" width="290"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss_freq2.png" width="290"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss_freq3.png" width="290">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss_freq1.png" width="425"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss_freq2.png" width="425"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss_freq3.png" width="425">
