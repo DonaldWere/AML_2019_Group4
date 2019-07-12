@@ -1,9 +1,6 @@
-# AML_2019_Group4
-
-## Gradient Descent Implementation in Python
+# Gradient Descent Implementation in Python
 <br> Gradient descent is one of the key tools in machine learning used in optimizing functions.
-<br> Gradient descent is employed to determine the best parameters to fit to a model to reduce the prediction error.
-<br> **The animation below illustrates the plain vanilla gradient descent. _(We have put other interactive modules within the notebook to show the path of gradient descent)_.**
+<br> **The animation below illustrates a typical gradient descent. _(We have put other interactive modules within the notebook)_.**
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path.gif" width="600" height="480"> 
 </p>
@@ -21,10 +18,7 @@ Its two partial derivatives are:
 Our analysis was performed in a class called `GradientDescent` which we imported as the module `gradient_descent`.
 
 ## Visualization of the Six-Hump Camel Function
-<br> The recommended evaluation range of the function is x∈[-3, 3] and y∈[-2, 2].
-<br> The function has six local minima of which two are the global minima.
-<br> The global minima of the function lie at (x, y) = (0.0898, -0.7126) and (-0.0898, 0.7126) 
-<br> The images below show the six-hump camel function:
+<br> The images below show the six-hump camel function in its recommended input region:
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/6_hump_plot.png">
 </p>
@@ -53,19 +47,20 @@ Our analysis was performed in a class called `GradientDescent` which we imported
 <br> Momentum gradient descent addresses the key limitations of plain-vanilla:
 * Speed of convergence especially as it approaches a minimum point
 * Inability to go past other local minima(or saddle points). 
+
 <br> As illustrated using the same step size of 0.001, the function **converges faster than plain vanilla _(in 278 steps compared to 1,599 under plain-vanilla)._**
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path2.png"> 
-</p> It however also has the challenge of not going past the local minima if the criteria is met(gradient is zero at all minima).
+</p> It however also has the challenge of not going past the local minimum.
 
 ### Effect of changing the step size (Momentum Gradient Descent)
 </p>1. The function achieved the global minimum more over the step sizes at which it converged
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss2.png">
-</p> 2. The function converged only 30% of the time implying that momentum gradient descent overshoots _(disregard the infinity)_. The function exploded in many cases indicating that it went beyond the recommended evaluation rectangle.
+</p> 2. The function converged only 30% of the time implying that momentum gradient descent overshoots _(disregard the infinity)_.
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss_freq2.png">
-</p> 3. The number of iterations does not follow the same linear path as under plain vanilla. The number of steps needed are roughly the same over the step sizes which also highlights the weakness of momentum when close to a minimum point(it does big, almost equal zig-zag movements)
+</p> 3. The number of iterations needed for convergence are roughly the same over the step sizes. This is a weakness of momentum (it does big, almost equal zig-zag movements when close to a minimum point).
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations2.png">
 
@@ -73,7 +68,8 @@ Our analysis was performed in a class called `GradientDescent` which we imported
 <br> This variant of plain vanilla was meant to address the limitations of momentum gradient descent by reducing the momentum when approaching a minimum point hence:
 * Reduce the zig-zag movements around the minimum point and hence converge faster
 * Reduce the overshooting hence converge more 
-</p> As demonstrated below, with the same step size of 0.001, **the function converges even faster and does even better than momentum gradient descent by converging to the global minima.**
+
+<br> As demonstrated below, with the same step size of 0.001, **the function converges even faster and does even better than momentum gradient descent by converging to the global minima.**
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path3.png"> 
 
@@ -87,4 +83,4 @@ Our analysis was performed in a class called `GradientDescent` which we imported
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss_freq3.png">
 </p> 3. The number of iterations needed to converge are also uncorrelated to step size
 <p align="center">
-  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations2.png">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations3.png">
