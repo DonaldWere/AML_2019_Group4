@@ -89,4 +89,4 @@ This variant of plain vanilla was meant to address the limitations of momentum g
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss_freq3.png">
 </p> 3. The number of iterations needed to converge are also uncorrelated to step size
 <p align="center">
-  img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations3.png">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations2.png">
