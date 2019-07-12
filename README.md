@@ -5,8 +5,8 @@
 <br> Gradient descent is very important when optimizing functions. It is employed to determine the best parameters to fit in a model to reduce the prediction error
 
 ## Gradient Descent: The Six-Hump Camel Function
-</p> The six-hump camel function is one of the optimization test problems used to demonstrate machine learning. To see other minimization problems, you can [click on this link](http://www.sfu.ca/~ssurjano/optimization.html).
-</p> Now we discuss and illustrate the function.  We might include some links or references, like [how to style your README.md file](https://sindresorhus.com/github-markdown-css/)
+<br> The six-hump camel function is one of the optimization test problems used to demonstrate machine learning. To see other minimization problems, you can [click on this link](http://www.sfu.ca/~ssurjano/optimization.html).
+<br> Now we discuss and illustrate the function.  We might include some links or references, like [how to style your README.md file](https://sindresorhus.com/github-markdown-css/)
 <br> The recommended evaluation range of the function is x ∈ [-3, 3] and y ∈ [-2, 2].
 <br> The function has six local minima of which two are the global minima.
 <br> The global minima of the function lie at (x, y) = (0.0898, -0.7126) and (-0.0898, 0.7126) 
