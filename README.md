@@ -70,7 +70,7 @@ Our analysis was performed in a class called `GradientDescent` which we imported
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations2.png">
 
 ### Nestrov’s Accelerated Gradient Descent:
-</p> This variant of plain vanilla was meant to address the limitations of momentum gradient descent by reducing the momentum when approaching a minimum point hence:
+<br> This variant of plain vanilla was meant to address the limitations of momentum gradient descent by reducing the momentum when approaching a minimum point hence:
 * Reduce the zig-zag movements around the minimum point and hence converge faster
 * Reduce the overshooting hence converge more 
 </p> As demonstrated below, with the same step size of 0.001, **the function converges even faster and does even better than momentum gradient descent by converging to the global minima.**
