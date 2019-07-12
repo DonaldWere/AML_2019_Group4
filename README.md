@@ -20,7 +20,7 @@
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_function.png"> 
 </p>
 <p align="center">
-  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/partial_x.png"> and  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/partial_y.png">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_function_partial_x.png"> and  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_function_partial_y.png">
 </p>
 <br>The class ‘GradientDescent’ is used in performing the analysis and the notebook contains all the coding done.
 
@@ -33,10 +33,10 @@
 </p>This is not the global minima and this is evidence of the inability of plain-vanilla gradient descent especially at very small step sizes.
 <br>Increasing the step sizes however gave different results as shown below:
 <br align="center">
-  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss.png" width="600" height="480">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss1.png" width="600" height="480">
 <br align="center">The function attained the global minimum 50% of the time
 <p align="center">
-  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations.png" width="600" height="480">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations1.png" width="600" height="480">
  <p align="center">Incresing the step size also led to a decline in the number of iterations as highlighted above
  
 ### Momentum Gradient Descent:
@@ -54,4 +54,13 @@
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path3.png"> 
 </p>Experimenting over the same range of step sizes shows that the function explodes in very many circumstances
-<br>Comparing the three, despite its limitations, plain vanilla does converge albeit inefficiently
+<br>Comparing the three, despite its limitations, plain vanilla does converge albeit inefficiently:
+<p align="center">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path1.png" width="290"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path2.png" width="290"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path3.png" width="290">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations1.png" width="290"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations2.png" width="290"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations3.png" width="290">
+  
+<p align="center">  
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss1.png" width="290"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss2.png" width="290"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss3.png" width="290">
+
+<p align="center">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss_freq1.png" width="290"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss_freq2.png" width="290"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss_freq3.png" width="290">
