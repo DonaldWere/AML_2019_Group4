@@ -1,4 +1,5 @@
 # Gradient Descent Implementation in Python
+<br> **The woork was done on jupyter notebook. To see the animations and interactive displays, please use jupyter.**
 <br> Gradient descent is one of the key tools in machine learning used in optimizing functions.
 <br> **The animations below illustrates a typical gradient descent. _(We have put other interactive modules within the notebook)_.**
 <p align="center">
