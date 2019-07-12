@@ -81,6 +81,6 @@ Our analysis was performed in a class called `GradientDescent` which we imported
 </p> 2. The number of times it converges at the global minima is roughly equivalent to that under momentum gradient descent
 <p align="center">  
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss_freq3.png">
-</p> 3. The number of iterations needed to converge are also uncorrelated to step size
+</p> 3. The number of iterations needed to converge decrease with step size indicating the improvement from momentum.
 <p align="center">
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations3.png">
