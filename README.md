@@ -1,8 +1,9 @@
 # Gradient Descent Implementation in Python
 <br> Gradient descent is one of the key tools in machine learning used in optimizing functions.
-<br> **The animation below illustrates a typical gradient descent. _(We have put other interactive modules within the notebook)_.**
+<br> **The animations below illustrates a typical gradient descent. _(We have put other interactive modules within the notebook)_.**
 <p align="center">
-  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path.gif" width="600" height="480"> 
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path.gif">
+  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/loss_path_local.gif">
 </p>
 
 ## Gradient Descent: The Six-Hump Camel Function
