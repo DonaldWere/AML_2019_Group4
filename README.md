@@ -87,9 +87,6 @@ This variant of plain vanilla was meant to address the limitations of momentum g
 </p> 2. The number of times it converges at the global minima is roughly equivalent to that under momentum gradient descent
 <p align="center">  
   <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss_freq3.png">
-</p> 3. The number of iterations needed to converge are also 
+</p> 3. The number of iterations needed to converge are also uncorrelated to step size
 <p align="center">
   img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/iterations3.png">
-  
-<p align="center">  
-  <img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss1.png" width="425"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss2.png" width="425"><img src="https://github.com/DennisOndieki/AML_2019_Group4/blob/master/Images/min_loss3.png" width="425">
